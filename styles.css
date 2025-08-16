@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('carpool.jpg'); /* Set your image path */
+    background-size: cover; /* Ensures the image covers the entire area */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents image repetition */
+    background-attachment: fixed; /* Keeps the image fixed while scrolling */
+    margin: 0;
+    padding: 0;
+    background-color: red; /* Test if this change reflects */
+    
+}
+
+.container {
+    text-align: center;
+    padding: 15%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+p {
+    margin: 10px 0;
+}
+.welcome {
+    font-size: 50px;
+    font-weight: bold;
+    color: #211b1b;
+}
+.message {
+    font-size: 30px;
+    color:black;
+}
+.sub-message {
+    font-size: 20px;
+    color: #221b1b;
+}
+
+.auth-buttons {
+    display: flex; /* Use flexbox for centering */
+    justify-content: center; /* Center items horizontally */
+    margin-top: 20px; /* Space above the buttons */
+}
+
+.center-buttons {
+    display: flex; /* Flex container for buttons */
+    gap: 15px; /* Space between buttons */
+}
+
+a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgba(93, 4, 78, 0.588);
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: background-color 0.3s; /* Smooth background transition */
+}
+
+a:hover {
+    background-color: darkmagenta;
+}
+
+.special-btn {
+    background-color: rgba(0, 128, 0, 0.7); /* Green background for special buttons */
+    font-weight: bold; /* Make text bold */
+    font-size: 20px; /* Slightly larger font size */
+    padding: 12px 24px; /* Increased padding for a larger button */
+    border-radius: 8px; /* Rounded corners for special buttons */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); /* Subtle shadow for depth */
+}
+
+.special-btn:hover {
+    background-color: darkgreen; /* Darker green on hover */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: antiquewhite; /* Change link color as needed */
+}
